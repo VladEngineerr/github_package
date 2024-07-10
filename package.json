@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/alchemist0803/github_package",
   "scripts": {
     "test": "exit 0"
   },
