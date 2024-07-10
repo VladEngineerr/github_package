@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "access": "restricted",
     "@alchemist:registry": "https://npm.pkg.github.com"
   }
 }
