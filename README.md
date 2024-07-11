@@ -1,22 +1,56 @@
-# Common Components Library
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Package Installation and Usage](#package-installation-and-usage)
-3. [Storybook Usage](#storybook-usage)
-4. [Development and Contribution Guidelines](#development-and-contribution-guidelines)
-5. [Things to Consider When Writing Components](#things-to-consider-when-writing-components)
-6. [Dynamic Styling/Themes](#dynamic-stylingthemes)
-7. [Accessibility](#accessibility)
-8. [Things to Consider When Writing Other Pieces](#things-to-consider-when-writing-other-pieces)
+# Publishing npm package
 
 ## Introduction
+
 This repository contains a library of reusable React components, hooks, and utilities. It is designed to promote code reuse, consistency, and best practices across projects.
 
 ## Package Installation and Usage
+
 ### Installation
+
 To install the package, use npm or yarn:
+
 ```bash
-npm install common-components
+npm install @alchemist0803/github_package
 # or
-yarn add common-components
+yarn add @alchemist0803/github_package
+```
+
+### Usage
+
+To use a component from the package, simply import it and include it in your JSX:
+
+```bash
+import { Button } from '@alchemist0803/github_package';
+
+const App = () => (
+  <div>
+    <Button>Click Me</Button>
+  </div>
+);
+
+export default App;
+```
+
+## Storybook Usage
+
+## Development and contribution guidelines
+
+### Things to Consider When Writing Components
+
+#### Dynamic Styling/Themes
+
+- Ensure components support dynamic styling and themes to allow easy customization.
+- Use CSS-in-JS libraries or theme providers to manage styles effectively.
+
+#### Accessibility
+
+- Use semantic HTML elements.
+- Add `aria-label` props for icon buttons and other non-text elements.
+- Avoid native button disabling; instead, implement accessible ways to indicate a disabled state.
+
+### Things to Consider When Writing Other Pieces (Hooks, Utilities)
+
+- Maintain consistency in naming conventions and coding standards.
+- Write clear and concise documentation for each utility or hook.
+- Ensure proper testing and type-checking to avoid runtime errors.
