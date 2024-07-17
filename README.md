@@ -1,4 +1,4 @@
-# @Ignite-Reading/ui-kit
+# @alchemist0803/github_package
 
 ## Introduction
 
@@ -11,24 +11,24 @@ This repository contains a library of reusable React components, hooks, and util
 To install the package, use npm or yarn:
 
 ```bash
-npm install @Ignite-Readidng/ui-kit
+npm install @alchemist0803/github_package
 # or
-yarn add @Ignite-Readidng/ui-kit
+yarn add @alchemist0803/github_package
 ```
 
 If the above command does not work, you can try:
 
 ```bash
-npm install github:Ignite-Reading/ui-kit
+npm install github:alchemist0803/github_package
 #or
-yarn add github:Ignite-Reading/ui-kit
+yarn add github:alchemist0803/github_package
 ```
 ### Usage
 
 To use a component from the package, simply import it and include it in your JSX:
 
 ```bash
-import { Button } from '@Ignite-Reading/ui-kit';
+import { Button } from '@alchemist0803/github_package';
 
 const App = () => (
   <div>

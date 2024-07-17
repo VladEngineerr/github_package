@@ -1,5 +1,5 @@
 {
-  "name": "@Ignite-Reading/ui-kit",
+  "name": "@alchemist0803/github_package",
   "version": "0.1.13",
   "type": "module",
   "files": [
@@ -51,7 +51,7 @@
     "vitest": "^2.0.3"
   },
   "publishConfig": {
-    "@Ignite-Reading:registry": "https://npm.pkg.github.com"
+    "@alchemist0803:registry": "https://npm.pkg.github.com"
   },
   "packageManager": "yarn@4.3.1"
 }
