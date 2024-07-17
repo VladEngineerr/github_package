@@ -1,18 +1,57 @@
 {
-  "name": "@alchemist0803/github_package",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alchemist0803/github_package.git"
+  "name": "@Ignite-Reading/ui-kit",
+  "version": "0.1.13",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
   },
   "scripts": {
-    "test": "exit 0"
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
-  "author": "@alchemist0803",
-  "license": "ISC",
+  "peerDependencies": {
+    "classnames": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.3.2",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "classnames": "^2.5.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "jsdom": "^24.1.0",
+    "postcss": "^8.4.39",
+    "prettier": "^3.3.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.4",
+    "tailwindcss-bg-patterns": "^0.3.0",
+    "vite": "^5.3.1",
+    "vitest": "^2.0.3"
+  },
   "publishConfig": {
-    "@alchemist:registry": "https://npm.pkg.github.com"
-  }
+    "@Ignite-Reading:registry": "https://npm.pkg.github.com"
+  },
+  "packageManager": "yarn@4.3.1"
 }
